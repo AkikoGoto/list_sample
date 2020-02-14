@@ -23,6 +23,7 @@ class TaskListAdapter(private val taskClickCallback: TaskClickCallback?) :
 
         this.taskList = taskList
 
+        //これ大事。ないと、データ追加後に画面が更新されません。
         notifyDataSetChanged()
 
     }

@@ -10,9 +10,7 @@ import jp.onlineconsultant.listsample.R
 import jp.onlineconsultant.listsample.Task
 import jp.onlineconsultant.taskadmin.data.dao.TaskDao
 
-/**
- *
- */
+
 class TaskRepository(val taskDao: TaskDao) {
 
 
